@@ -4,5 +4,33 @@
     justify-content: space-around;
 }
 
+.desc {
+  margin: 10px 20px;
+  letter-spacing: 0px;
+}
 
 
+.loading-image{
+    animation: roll 3s infinite;
+    transform: rotate(30deg);
+    margin: auto;
+}
+
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+.no-results {
+  background-color: aliceblue;
+  font-size: 50px;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  width: fit-content;
+  
+}

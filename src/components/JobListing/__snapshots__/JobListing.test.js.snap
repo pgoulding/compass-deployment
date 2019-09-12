@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Job Listing should match snapshot 1`] = `
+<article
+  className="job"
+>
+  <p
+    className="job-date"
+  >
+    Updated on: 
+    01/26/2020
+  </p>
+  <h3
+    className="job-title"
+  >
+    FrontEnd Engineer
+  </h3>
+  <h5
+    className="job-location"
+  >
+    Dallas, TX
+  </h5>
+  <h5
+    className="job-salary"
+  >
+    Full Time
+    : 
+    400000
+  </h5>
+  <p
+    className="job-company"
+  >
+    Tronkat Inc.
+  </p>
+  <p
+    className="job-description"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "This is a random snippet",
+      }
+    }
+  />
+  <Link
+    to="/job/undefined"
+  >
+    <button>
+      Learn More About 
+      Dallas, TX
+    </button>
+  </Link>
+</article>
+`;

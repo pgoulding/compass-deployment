@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<header>
+  <Link
+    className="logo"
+    to="/"
+  >
+    <img
+      alt="Compass site logo with title COMPASS"
+      className="logo-img"
+      src="compassLogo-test1.png"
+    />
+  </Link>
+</header>
+`;

@@ -1,68 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Compass ([Live Site](https://master.d1unm2lt3lovzm.amplifyapp.com/))
+[![Build Status](https://travis-ci.org/jacquelinebelle/tbd-fe.svg?branch=master)](https://travis-ci.org/jacquelinebelle/tbd-fe)
+## Team Members
+| Name | Github | Team |
+|:----------------:|:----------------------------------:|:----------:|
+| David Hardy | https://github.com/davehardy632 | Back End |
+| DeMarcus Kirby | https://github.com/KirbyDD | Front End |
+| Jacqueline Moore | https://github.com/jacquelinebelle | Front End |
+| Patrick Goulding | https://github.com/pgoulding | Full Stack |
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This project was built for someone on the job market and considering moving to a new location. As a user you can search for jobs by Title, *(optionally specifying a city)*, along with their salary requirements and the max distance away from the location they're searching, and return recent job listings. If the User is  interested in the Job, they can see more details about that Job and the detailed data on the closest urban area with scores for general city score, detailed city scores, and salaries from the city in which they are applying.
 
-### `npm start`
+This project was built with React, Redux as a PWA and Desktop site. 
+Tested with Jest/Mocha/Travis CI.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Setup
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Simply start by cloning this repo for front end and the following repo for the back end in sepreate folders:
 
-### `npm test`
+```bash
+git clone git@github.com:jacquelinebelle/tbd-fe.git
+```
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once you have cloned the repos, to install the library dependencies. Run:
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run `npm start` in your terminal. Go to `http://localhost:3000/` and you should see a live version of the application if installed correctly.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Testing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run `npm test` in your terminal if you would like to see the testing results.
 
-### `npm run eject`
+Run `npm test -- --coverage --watchAll=false` in your terminal in your terminal if you would like to see test coverage.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Screenshots
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Home Page/Search Page:
 
-## Learn More
+<img width="1436" alt="Screen Shot 2019-09-11 at 9 36 57 AM" src="https://user-images.githubusercontent.com/36940278/64712400-ac320980-d4aa-11e9-9ba9-5632794f138e.png">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Job Listings:
 
-### Code Splitting
+<img width="1440" alt="Screen Shot 2019-09-11 at 9 36 41 AM" src="https://user-images.githubusercontent.com/36940278/64712411-af2cfa00-d4aa-11e9-9ba1-fe67351ea172.png">
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Emphasis of the Project
 
-### Analyzing the Bundle Size
+Further knowledge on the following technologies/principles:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- ReactJS
+- Redux
+- Thunks
+- JSX
+- Jest and Enzyme Testing
+- Fetch API's
+- Asynchronous JS and Testing
+- Router
+- GitHub Issues
+- SCSS
+- Trello Project Management Board
+
 
 ### Making a Progressive Web App
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

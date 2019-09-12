@@ -1,9 +1,9 @@
 @import '../../assets/variables.scss';
 
 .job {
-    background-color: white;
-    box-shadow: 7px 7px 8px #B2D1E4;
-    height: 270px;
+    background-color: #ffffff;
+    box-shadow: 7px 7px 8px #2c73a0;
+    height: fit-content;
     margin-bottom: 20px;
     padding: 20px;
     font-size: $small-text;
@@ -11,7 +11,21 @@
     * {
         margin: 8.5px 0;
     }
+    button {
+        background-color: #B2D1E4;
+        border: none;
+        display: block;
+        font-size: 14px;
+        margin: 16px auto;
+        padding: 10px 0;
+        width: 285px;
+    }
+    button:hover {
+        box-shadow: 1px 1px 8px #B2D1E4;
+        cursor: pointer;
+    }
 }
+
 
 .job-date {
     font-size: 14px;
@@ -21,8 +35,8 @@
 
 .job-title {
     color: $secondary-dark;
-    font-size: 24px;
-    font-weight: $large-text-weight;
+    font-size: 25px;
+    font-weight: 800;
     margin: 12px 0;
     text-align: center;
     text-decoration: none;
@@ -37,6 +51,7 @@
 
 .job-company {
     margin-top: 28px;
+    font-weight: 900;
 }
 
 .job-description {
